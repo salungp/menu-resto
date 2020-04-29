@@ -1,0 +1,21 @@
+{
+  "name": "resto-app",
+  "version": "1.0.0",
+  "description": "Berisi menu makanan dan minuman",
+  "author": "Salung Prastyo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "nuxt": "^2.0.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
