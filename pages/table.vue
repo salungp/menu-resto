@@ -138,7 +138,7 @@ export default {
 
 			formData.append('id', this.checked)
 
-			axios.post('http://localhost/perpustakaan-online-api/menu/delete', formData)
+			axios.post('https://salung.000webhostapp.com/menu/delete', formData)
 				.then(res => {
 					// update the state
 					this.fetchData()
@@ -169,7 +169,7 @@ export default {
 		},
 
 		fetchData() {
-			axios.get('http://localhost/perpustakaan-online-api/menu')
+			axios.get('https://salung.000webhostapp.com/menu')
 	      .then(res => {
 	        this.$store.commit('menu/get', res.data)
 	      }).catch(error => {

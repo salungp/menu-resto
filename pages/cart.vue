@@ -123,7 +123,7 @@ export default {
 	},
 
 	created() {
-		axios.get('http://localhost/perpustakaan-online-api/menu')
+		axios.get('https://salung.000webhostapp.com/menu')
       .then(res => {
         this.$store.dispatch('menu/getMenu', res.data)
         this.isLoading = false

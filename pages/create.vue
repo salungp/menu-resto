@@ -122,7 +122,7 @@ export default {
 			formData.append('category', this.category)
 			formData.append('menu_image', this.menu_image)
 
-			axios.post('http://localhost/perpustakaan-online-api/menu/create', formData).then(res => {
+			axios.post('https://salung.000webhostapp.com/menu/create', formData).then(res => {
 					this.alert = {
 						status: true,
 						type: 'success',
